@@ -64,15 +64,20 @@
     li {
         margin-bottom: 5px;
     }
-    .company-logos img {
-        width: 120px;
-        margin-right: 15px;
-        vertical-align: middle;
-    }
     .tools img {
         width: 100%;
         max-width: 600px;
         margin-top: 15px;
+    }
+    .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .job-header img {
+        width: 100px;
+        height: auto;
+        margin-left: 10px;
     }
 </style>
 </head>
@@ -80,7 +85,7 @@
 
 <div class="container">
     <header>
-        <img src="facebook-profile.jpeg" alt="Profile Photo">
+        <img src="4.jpg" alt="Profile Photo">
         <h1>Roselle M. Sembrano</h1>
         <p class="subtitle">Aspiring Virtual Assistant | BSIT Graduate | Tech-Savvy & Creative</p>
         <p class="location">📍 Santo Rosario, Mexico, Pampanga, Philippines</p>
@@ -104,13 +109,11 @@
 
     <section>
         <h2>Experience</h2>
-        <div class="company-logos">
-            <img src="co.png" alt="Clark Outsourcing Logo">
-            <img src="samgyup.jfif" alt="Samgyup Seoul Unlimited Logo">
-            <img src="sbg.png" alt="Salveo Barley Grass Logo">
-        </div>
 
-        <h3>IT & Technical Support Intern</h3>
+        <div class="job-header">
+            <h3>IT & Technical Support Intern</h3>
+            <img src="co.png" alt="Clark Outsourcing Logo">
+        </div>
         <p><em>Clark Outsourcing – Pampanga, Philippines | Jan-Apr 2025</em></p>
         <ul>
             <li>Managed support tickets, data entry, and internal communications for technical teams</li>
@@ -118,14 +121,20 @@
             <li>Supported remote teams with scheduling, document preparation, and software troubleshooting</li>
         </ul>
 
-        <h3>Customer Service & Cashier</h3>
+        <div class="job-header">
+            <h3>Customer Service & Cashier</h3>
+            <img src="samgyup.jfif" alt="Samgyup Seoul Unlimited Logo">
+        </div>
         <p><em>Samgyup Seoul Unlimited – Mexico, Pampanga, Philippines | 2023</em></p>
         <ul>
             <li>Handled cash and digital transactions while providing fast and friendly service</li>
             <li>Assisted with daily sales reports and inventory counts</li>
         </ul>
 
-        <h3>Encoder – Shipping Department</h3>
+        <div class="job-header">
+            <h3>Encoder – Shipping Department</h3>
+            <img src="sbg.png" alt="Salveo Barley Grass Logo">
+        </div>
         <p><em>Salveo Barley Grass – Angeles, Pampanga, Philippines | 2022</em></p>
         <ul>
             <li>Processed and recorded shipment data, including tracking numbers and customer details</li>
@@ -147,7 +156,7 @@
 
     <section class="tools">
         <h2>Tools</h2>
-        <img src="tools1.jpg" alt="Tools Logos">
+        <img src="tools1.jpeg" alt="Tools Logos">
     </section>
 
     <section>
@@ -168,5 +177,3 @@
 
 </body>
 </html>
-
-
